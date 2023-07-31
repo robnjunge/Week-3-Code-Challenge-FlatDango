@@ -14,7 +14,7 @@ For this challenge, you will be working on FlataDango, an app where you can see 
 * node
 
 ## Running User Application
-Clone from this here: 
+Clone from this here: https://github.com/robnjunge/Week-3-Code-Challenge-FlatDango 
 
 * Run this command
 
