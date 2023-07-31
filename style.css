@@ -1,0 +1,32 @@
+body{
+    background-color: aliceblue;
+    display: block;
+}
+h2{
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: aqua;
+    font-weight: bold;
+}
+.movie-poster{
+    padding-left: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.tickets{
+    margin-left: 3rem;
+}
+.movie-details{
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-weight: bold;
+    font-display: block;
+}

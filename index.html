@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlatDango</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <title>Flatdango</title>
 </head>
 <body>
-    
+  <section>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-brand" href="#">
+          <h1>FLATDANGO: Your one stop shop for all movie tickets</h1>
+          <h1>Buy Movie Tickets Now</h1>
+          <span class="navbar-toggler-icon"></span>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section id="movieDetails" class="movie-details">
+    <div id="movieTitles" class="movie-titles">
+      <p>Movie Titles</p>
+      <ul id="titles" class="titles">
+        <!-- Film titles will be dynamically added here -->
+      </ul>
+    </div>
+    <div id="moviePoster" class="movie-poster">
+      <p>Movie Poster</p>
+    </div>
+    <div id="tickets" class="tickets">
+      <div id="titleAndRuntime" class="p-3 mb-2 bg-primary">
+        <!-- Film title and runtime will be dynamically added here -->
+      </div>
+      <div id="moreDetails" class="more-details">
+        <p>Movie Details</p>
+      </div>
+    </div>
+  </section>
+  <script src="./index.js"></script>
 </body>
 </html>
