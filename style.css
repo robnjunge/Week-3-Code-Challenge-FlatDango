@@ -6,14 +6,17 @@ body {
   h1 {
     text-align: center;
     padding: none;
-    font-size: 15;
+    font-size: 28px;
     background-color: rgb(132, 132, 196);
     color: #3a2821;
   }
-
+h2{
+  font-size: medium;
+  padding-bottom: none;
+}
     #titles {
     list-style: none;
-    padding: 10px;
+    padding: 5px;
     font-size: medium;
     background-color: #eee;
   }
