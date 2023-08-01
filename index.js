@@ -1,4 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
+  fetch("http://localhost:3000/films")
+    .then((resp) => resp.json())
+    .then((data) => {
+      const titlesElement = document.getElementById("titles");
 
   function displayMovieDetails(movie) {
     const moviePoster = document.getElementById("moviePoster");
@@ -57,10 +61,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
-  fetch("http://localhost:3000/films")
-    .then((resp) => resp.json())
-    .then((data) => {
-      const titlesElement = document.getElementById("titles");
 
       data.forEach((movie) => {
         let listElement = document.createElement("li");
