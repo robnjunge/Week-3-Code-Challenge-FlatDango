@@ -23,9 +23,8 @@ h2{
   
   #titles li {
     cursor: pointer;
-    padding: 2px 10px;
-    margin: 2px;
-    background-color: #fff;
+    margin: 5px;
+    background-color: #d1ebc3;
   }
   
   #titles li:hover {
